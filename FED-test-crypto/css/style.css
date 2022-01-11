@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.row{
+    margin-right: 0 !important;
+}
+
+.coontainer{
+    width: 100%;
+}
+
+.crypto-costs{
+    background-color: black;
+}
+
+.crypto-costs ul, .partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.crypto-costs li, .partners li{
+    margin: 0 10px;
+}
+
+.crypto-costs li>img{
+    float: left;
+    margin-top: 9px;
+}
+
+.crypto-costs li>p{
+    float: left;
+    padding: 10px;
+    color: white;
+    margin: 0 !important;
+}
+
+.crypto-costs li>p:nth-child(2){
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.greenFlag{
+    color: green !important;
+}
+.redFlag{
+    color: red !important;
+}
+
+.main{
+    background-color: #8000FF;
+    width: 100%;
+
+}
+
+.navigations{
+    padding-top: 20px;
+    margin-bottom: 50px; 
+}
+
+.navigations button{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.navigations button:hover{
+    color: rgba(216, 213, 213, 0.644);
+}
+
+.navigations-mid li:nth-child(5) button{
+    background: white;
+    color: #8000FF;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navigations-mid li:nth-child(5) button:hover{
+    opacity: 0.9;
+}
+
+.content-area>div{
+    margin: 0 0 0 17%;
+    margin-top: 40px !important;
+    margin-top: 20px;
+}
+
+.content-area .content-mid{
+    color: white;
+    font-weight: 600;
+    font-size: 13pt;
+}
+
+.joinlist{
+    padding-bottom: 20px;
+}
+
+.joinlist button{
+    font-weight: bold;
+    padding: 11px 14px;
+}
+
+.content-area .content-top h1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 38pt;
+    color: white;
+}
+
+.leader-board{
+    max-height: 300px;
+    padding: 20px 40px;
+}
+
+footer{
+    background-color: #FBFBFB;
+}
+
+footer h2{
+    text-align: right;
+}
+
+footer ul{
+    padding: 11px 0px;
+}
+
+footer ul li{
+    font-weight: bold;
+}
